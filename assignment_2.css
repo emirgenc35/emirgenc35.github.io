@@ -1,0 +1,89 @@
+body {
+    min-height: 40rem;
+    margin-bottom: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(45, 15%, 95%);
+    color: rgb(22, 102, 86);
+}
+
+#profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#ul-item-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 35px;
+    color: rgb(22, 102, 86);
+}
+
+#a {
+    color: green;
+    text-decoration: none;
+}
+
+.h {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.about, .projects, .skills, .contact {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: white;
+    border: 2px solid rgb(22, 102, 86);
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(45, 15%, 95%);
+    color: rgb(22, 102, 86);
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+}
+
+.ul-item-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 5px;
+    padding: 0;
+}
+
+.ul-item-footer li {
+    list-style-type: none;
+}
+
+.ul-item-footer img {
+    width: 32px;
+    height: 32px;
+}
